@@ -1,0 +1,23 @@
+header{
+    display: flex;
+    position: fixed; 
+    top: 0; 
+    left: 0;
+    width: 100%;
+    justify-content:center;
+    background-color: white;
+}
+
+header ul li{
+    list-style: none;
+    display: inline; 
+    margin-right: 50px; 
+    
+}
+
+header ul li a{
+    color: black; 
+}
+
+
+

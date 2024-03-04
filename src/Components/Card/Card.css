@@ -1,0 +1,41 @@
+.container {
+    width: 20rem;
+    height: 25rem;
+    border: double 5px gray;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+    
+    
+  }
+
+  .container > img{
+    width: 100%;
+  }
+  
+  .container > h2 {
+    font-size: 1.5rem;
+    text-shadow: 0 0 5px #808080;
+  
+  }
+  
+  .container > p {
+    text-align: center;
+  }
+  
+  .container > a {
+    width: 8rem;
+    font-size: 1.5rem;
+    padding: 0.2rem;
+    border-radius: 5px;
+    border: solid ;
+    background-color: #ffffff;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000000;
+    position: relative;  
+    top: 4rem;
+  }
+  
